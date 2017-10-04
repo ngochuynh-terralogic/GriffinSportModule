@@ -18,7 +18,11 @@
   },
   "defaultProps": {
     "sidePaneBackgroundColor": "black",
-    "transparency": 0.7
+    "transparency": 0.7,
+    "timestampOptions": {
+      "showElapsedTime": false,
+      "displayShortDateTime": false
+    }
   },
   "propChoices": {
   },
