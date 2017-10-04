@@ -1,0 +1,31 @@
+{
+  "thumbnail": "https://wnow-modules.s3.amazonaws.com/icon_stroke_news_articlelist.svg",
+  "tag": "news",
+  "affiliates": [
+    "kotv",
+    "kwtv"
+  ],
+  "propTypes": {
+    "sidePaneBackgroundColor": "PropTypes.string",
+    "transparency": "PropTypes.number",
+    "timestampOptions": "PropTypes.object"
+  },
+  "customProps": {
+    "timestampOptions": {
+      "showElapsedTime": "PropTypes.bool",
+      "displayShortDateTime": "PropTypes.bool"
+    }
+  },
+  "defaultProps": {
+    "sidePaneBackgroundColor": "black",
+    "transparency": 0.7
+  },
+  "propChoices": {
+  },
+  "FRN_resourceEndpoints": [
+    {
+      "url": "",
+      "type": "json"
+    }
+  ]
+}

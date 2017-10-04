@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import React, { Component, PropTypes } from 'react';
-import Timestamp from './Timestamp';
+import Timestamp from 'components/custom/griffin/Timestamp';
 
 class SportModule extends Component {
   static propTypes = {
@@ -58,7 +58,7 @@ class SportModule extends Component {
     const tail = _.tail(itemsToShow);
 
     const ListComponent = (
-      <List 
+      <List
         items={tail}
         showElapsedTime={showElapsedTime}
         displayShortDateTime={displayShortDateTime}
@@ -85,7 +85,7 @@ class SportModule extends Component {
           </div>
         </div>
       </div>
-    ) 
+    )
   }
 }
 
@@ -101,7 +101,7 @@ class List extends Component {
   }
 
   render() {
-    const { 
+    const {
       items,
       showElapsedTime,
       displayShortDateTime,
